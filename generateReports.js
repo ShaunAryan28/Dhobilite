@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const inputFilePath = path.resolve('data', 'sample_sales.csv');
+const inputFilePath = path.resolve('sample_sales.csv');
 
 const parseCSV = (filePath) => {
   return new Promise((resolve, reject) => {
